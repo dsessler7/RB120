@@ -1,0 +1,1 @@
+The method lookup path is the hierarchical list that Ruby looks through when a method is called to find the method is should run. It starts with the class of the object that is calling the method, then looks through the modules that are mixed in with the calling class, then the superclass, then its mixins, and so on and so forth.
